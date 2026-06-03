@@ -8,10 +8,10 @@ import { LocaleSwitcher } from "./LocaleSwitcher";
 import { PhoneScheduleButton } from "./PhoneScheduleButton";
 
 const links = [
-  { href: "#about", key: "about" },
   { href: "#services", key: "services" },
-  { href: "#gallery", key: "gallery" },
   { href: "#pricing", key: "pricing" },
+  { href: "#about", key: "about" },
+  { href: "#gallery", key: "gallery" },
   { href: "#faq", key: "faq" },
   { href: "#contact", key: "contact" },
 ] as const;
