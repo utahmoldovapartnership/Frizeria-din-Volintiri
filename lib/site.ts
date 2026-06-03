@@ -6,9 +6,8 @@ export const siteConfig = {
   locationName: "Centrul pentru Antreprenori",
   addressLine: "Volintiri, Ștefan Vodă, Moldova",
   mapsEmbedUrl:
-    "https://maps.google.com/maps?q=46.4266,29.6058&hl=en&z=15&output=embed",
-  mapsOpenUrl:
-    "https://www.google.com/maps/search/?api=1&query=Centrul+pentru+Antreprenori,+Volintiri,+Stefan+Voda,+Moldova",
+    "https://maps.google.com/maps?q=46.433083,29.603240&hl=en&z=17&output=embed",
+  mapsOpenUrl: "https://maps.app.goo.gl/yfwQSubUC7cHcGJt9",
 } as const;
 
 export const images = {

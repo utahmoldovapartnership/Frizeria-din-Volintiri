@@ -49,7 +49,7 @@ export function ContactFooter() {
             </address>
           </div>
 
-          <div className="footer-contact-map relative min-h-[14rem] overflow-hidden rounded-2xl ring-1 ring-white/15 lg:min-h-0 lg:h-full">
+          <div className="footer-contact-map relative min-h-[20rem] overflow-hidden rounded-2xl ring-1 ring-white/15 sm:min-h-[22rem] lg:min-h-0 lg:h-full">
             <iframe
               title={t("mapTitle")}
               src={siteConfig.mapsEmbedUrl}

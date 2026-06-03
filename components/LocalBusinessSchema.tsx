@@ -15,8 +15,8 @@ export function LocalBusinessSchema() {
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 46.4266,
-      longitude: 29.6058,
+      latitude: 46.433083,
+      longitude: 29.60324,
     },
   };
 
