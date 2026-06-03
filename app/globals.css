@@ -69,64 +69,6 @@ body {
   contain-intrinsic-size: auto 520px;
 }
 
-.lazy-reveal {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 520px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .lazy-reveal {
-    opacity: 0;
-    transform: translateY(1.25rem);
-    transition:
-      opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
-      transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
-  }
-
-  .lazy-reveal-visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.lazy-map {
-  position: relative;
-  height: 100%;
-  min-height: 100%;
-  background: rgb(255 255 255 / 0.05);
-}
-
-.lazy-map-placeholder {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    110deg,
-    rgb(255 255 255 / 0.04) 25%,
-    rgb(255 255 255 / 0.09) 50%,
-    rgb(255 255 255 / 0.04) 75%
-  );
-  background-size: 200% 100%;
-  animation: lazy-shimmer 1.5s ease-in-out infinite;
-}
-
-@keyframes lazy-shimmer {
-  to {
-    background-position: -200% 0;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .lazy-reveal {
-    opacity: 1;
-    transform: none;
-    transition: none;
-  }
-
-  .lazy-map-placeholder {
-    animation: none;
-  }
-}
-
 .section-alt {
   background: var(--white);
 }
@@ -723,20 +665,9 @@ body {
     width: 100%;
   }
 
-  .certificates-gallery-wrap.lazy-reveal {
-    width: 100%;
-  }
-
   .certificates-gallery {
     width: 100%;
     gap: 0.625rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .certificates-page .lazy-reveal {
-    opacity: 1;
-    transform: none;
   }
 }
 

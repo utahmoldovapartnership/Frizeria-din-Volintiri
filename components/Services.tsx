@@ -1,6 +1,6 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { images } from "@/lib/site";
-import { LazyImage } from "./LazyImage";
 import { SectionHeading } from "./SectionHeading";
 
 const keys = ["hair", "nails", "wax"] as const;
@@ -27,7 +27,7 @@ export function Services() {
           {keys.map((key) => (
             <li key={key} className="card flex flex-col">
               <div className="relative aspect-[4/3] bg-sand">
-                <LazyImage
+                <Image
                   src={serviceImages[key]}
                   alt={t(`${key}.title`)}
                   fill

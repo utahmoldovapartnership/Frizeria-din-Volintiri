@@ -1,7 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { siteConfig } from "@/lib/site";
-import { LazyMap } from "./LazyMap";
 import { PhoneDisplay } from "./PhoneDisplay";
 import { SectionHeading } from "./SectionHeading";
 
@@ -51,10 +50,11 @@ export function ContactFooter() {
           </div>
 
           <div className="footer-contact-map relative min-h-[14rem] overflow-hidden rounded-2xl ring-1 ring-white/15 lg:min-h-0 lg:h-full">
-            <LazyMap
+            <iframe
               title={t("mapTitle")}
               src={siteConfig.mapsEmbedUrl}
-              className="absolute inset-0 h-full w-full"
+              className="absolute inset-0 h-full w-full border-0"
+              allowFullScreen
             />
           </div>
         </div>

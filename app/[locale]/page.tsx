@@ -8,7 +8,6 @@ import { Pricing } from "@/components/Pricing";
 import { FAQ } from "@/components/FAQ";
 import { BookCta } from "@/components/BookCta";
 import { ContactFooter } from "@/components/ContactFooter";
-import { LazyReveal } from "@/components/LazyReveal";
 import { routing } from "@/i18n/routing";
 
 type PageProps = {
@@ -24,28 +23,14 @@ export default async function HomePage({ params }: PageProps) {
       <Header />
       <main>
         <Hero />
-        <LazyReveal>
-          <Services />
-        </LazyReveal>
-        <LazyReveal>
-          <Pricing />
-        </LazyReveal>
-        <LazyReveal>
-          <About />
-        </LazyReveal>
-        <LazyReveal>
-          <Gallery />
-        </LazyReveal>
-        <LazyReveal>
-          <FAQ />
-        </LazyReveal>
+        <Services />
+        <Pricing />
+        <About />
+        <Gallery />
+        <FAQ />
       </main>
-      <LazyReveal>
-        <BookCta />
-      </LazyReveal>
-      <LazyReveal>
-        <ContactFooter />
-      </LazyReveal>
+      <BookCta />
+      <ContactFooter />
     </>
   );
 }

@@ -1,6 +1,6 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { images } from "@/lib/site";
-import { LazyImage } from "./LazyImage";
 import { PhoneScheduleButton } from "./PhoneScheduleButton";
 import { SectionHeading } from "./SectionHeading";
 
@@ -11,7 +11,7 @@ export function About() {
     <section id="about" className="section">
       <div className="wrap-wide grid gap-10 md:grid-cols-[minmax(0,0.95fr)_1.1fr] md:items-stretch md:gap-14">
         <div className="relative aspect-[3/4] max-h-[28rem] w-full overflow-hidden rounded-2xl shadow-[var(--shadow-lg)] md:aspect-auto md:max-h-none md:h-full">
-          <LazyImage
+          <Image
             src={images.stylist}
             alt={t("imageAlt")}
             fill

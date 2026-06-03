@@ -2,7 +2,6 @@ import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { Header } from "@/components/Header";
 import { CertificatesGallery } from "@/components/CertificatesGallery";
-import { LazyReveal } from "@/components/LazyReveal";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
@@ -31,9 +30,9 @@ export default async function CertificatesPage({ params }: PageProps) {
             ← {t("back")}
           </Link>
           <SectionHeading title={t("title")} description={t("intro")} />
-          <LazyReveal className="certificates-gallery-wrap min-h-0 flex-1">
+          <div className="certificates-gallery-wrap min-h-0 flex-1">
             <CertificatesGallery className="certificates-gallery" />
-          </LazyReveal>
+          </div>
           <a href="#top" className="link back-to-top w-fit shrink-0 text-sm lg:hidden">
             ↑ {t("backToTop")}
           </a>

@@ -1,6 +1,6 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { galleryByService, galleryServiceKeys } from "@/lib/site";
-import { LazyImage } from "./LazyImage";
 import { SectionHeading } from "./SectionHeading";
 
 export function Gallery() {
@@ -26,7 +26,7 @@ export function Gallery() {
                   key={src}
                   className={`relative aspect-[4/3] overflow-hidden rounded-xl bg-sand shadow-[var(--shadow)]${i >= 3 ? " sm:hidden" : ""}`}
                 >
-                  <LazyImage
+                  <Image
                     src={src}
                     alt={t("imageAlt", { category: t(`categories.${service}`), n: i + 1 })}
                     fill

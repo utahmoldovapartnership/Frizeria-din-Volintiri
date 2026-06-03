@@ -1,6 +1,6 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { certificateImages } from "@/lib/site";
-import { LazyImage } from "./LazyImage";
 
 type CertificatesGalleryProps = {
   className?: string;
@@ -23,7 +23,7 @@ export function CertificatesGallery({ className }: CertificatesGalleryProps) {
           key={src}
           className="relative aspect-[4/3] overflow-hidden rounded-lg border border-[var(--border)] bg-sand shadow-[var(--shadow)]"
         >
-          <LazyImage
+          <Image
             src={src}
             alt={t("imageAlt", { n: i + 1 })}
             fill
