@@ -5,9 +5,9 @@ import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
 
 const locales = [
-  { value: "en", label: "EN" },
   { value: "ro", label: "RO" },
   { value: "ru", label: "RU" },
+  { value: "en", label: "EN" },
 ] as const;
 
 function Chevron({ open }: { open: boolean }) {
