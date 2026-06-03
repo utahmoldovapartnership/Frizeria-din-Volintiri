@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { siteConfig } from "@/lib/site";
 import { LazyMap } from "./LazyMap";
+import { PhoneDisplay } from "./PhoneDisplay";
 import { SectionHeading } from "./SectionHeading";
 
 export function ContactFooter() {
@@ -18,26 +19,35 @@ export function ContactFooter() {
           <div className="flex flex-col gap-6">
             <SectionHeading title={siteConfig.name} description={t("hours")} light />
             <p className="text-body !text-white/85">{t("phoneLead")}</p>
-            <a
-              href={`tel:${siteConfig.phoneTel}`}
-              className="btn w-fit !bg-white !text-midnight-violet hover:!bg-thistle !shadow-none"
-            >
-              {siteConfig.phoneFormatted}
-            </a>
+            <PhoneDisplay tone="light" />
             <address className="text-body !text-white/85 not-italic">
-              <strong className="block font-semibold text-white">
-                {siteConfig.locationName}
-              </strong>
-              {siteConfig.addressLine}
+              <div className="flex items-start gap-3">
+                <svg
+                  className="mt-0.5 h-5 w-5 shrink-0 !text-thistle"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  aria-hidden
+                >
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" />
+                </svg>
+                <div className="flex flex-col gap-3">
+                  <div className="flex flex-col gap-0.5">
+                    <strong className="block font-semibold text-white">
+                      {siteConfig.locationName}
+                    </strong>
+                    <span>{siteConfig.addressLine}</span>
+                  </div>
+                  <a
+                    href={siteConfig.mapsOpenUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link !text-thistle w-fit"
+                  >
+                    {t("openInMaps")} →
+                  </a>
+                </div>
+              </div>
             </address>
-            <a
-              href={siteConfig.mapsOpenUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="link !text-thistle w-fit"
-            >
-              {t("openInMaps")} →
-            </a>
           </div>
 
           <div className="footer-contact-map relative min-h-[14rem] overflow-hidden rounded-2xl ring-1 ring-white/15 lg:min-h-0 lg:h-full">

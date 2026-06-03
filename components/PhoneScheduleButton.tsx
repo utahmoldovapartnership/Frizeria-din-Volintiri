@@ -18,7 +18,7 @@ export function PhoneScheduleButton({
       onClick={onClick}
     >
       <span className="btn-phone-label">{label}</span>
-      <span className="btn-phone-number">{siteConfig.phoneFormatted}</span>
+      <span className="btn-phone-number">{siteConfig.phoneLocal}</span>
     </a>
   );
 }

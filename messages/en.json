@@ -23,9 +23,9 @@
     "imageAlt": "Haircut in progress at the salon"
   },
   "about": {
-    "heading": "Meet your stylist",
-    "text1": "Aliona Boldișor runs a small, calm studio in Volintiri where every visit is one-on-one, with no rush and no walk-in queue. She is a qualified broad-profile hairdresser (frizer de profil larg) with professional training recognized in Moldova, including international certification.",
-    "text2": "Aliona handles haircuts and color, nail care, and waxing herself, so you always see the same person. Appointments are by phone only; she blocks enough time for each client and keeps the studio private and discreet.",
+    "heading": "About",
+    "text1": "Our beauty salon at Centrul pentru Antreprenori in Volintiri offers complete care: hairdressing for women and men, manicure and nail maintenance, and professional waxing. We use quality products and focus on comfort, discretion, and booking ahead. Appointments are by phone.",
+    "text2": "Aliona Boldișor runs the studio: a qualified broad-profile hairdresser (frizer de profil larg) with professional training recognized in Moldova, including international certification. She personally handles haircuts and color, nails, and waxing so you always see the same person. She blocks enough time for each client and keeps the studio private and discreet.",
     "cta": "Call Aliona to book",
     "imageAlt": "Aliona Boldișor performing nail care"
   },
@@ -44,15 +44,15 @@
     "viewPrices": "See prices",
     "hair": {
       "title": "Hair",
-      "text": "Modern cuts for men and women. Coloring with your own dye."
+      "text": "Modern haircuts for women and men, with coloring using dye you bring. We work without rush in a private studio so every visit stays calm and personal."
     },
     "nails": {
       "title": "Nails",
-      "text": "Extensions, maintenance, gel strengthening, and gel polish."
+      "text": "Extensions, maintenance, gel strengthening, and gel polish. Quality products and careful prep for neat, lasting results."
     },
     "wax": {
       "title": "Waxing",
-      "text": "Professional body and face waxing with gentle technique and quality waxes."
+      "text": "Professional waxing that is gentle on the skin and effective for comfort. We use quality products, including specialty waxes with appealing scents and colors."
     }
   },
   "gallery": {
@@ -73,7 +73,7 @@
       "nails": "Nails",
       "waxing": "Waxing"
     },
-    "note": "Hair color: 100–150 MDL depending on length. Gel-lac price on request.",
+    "note": "Hair color: 100–150 MDL depending on length.",
     "items": {
       "nails": "Nails",
       "nailsPrice": "250 MDL",
@@ -97,11 +97,11 @@
       "armsShoulderPrice": "150 MDL",
       "legsKnee": "Legs to knee",
       "legsKneePrice": "120 MDL",
-      "legsFull": "Full legs",
+      "legsFull": "Full legs (to top)",
       "legsFullPrice": "230 MDL",
-      "stomach": "Stomach",
+      "stomach": "Abdomen",
       "stomachPrice": "30 MDL",
-      "glutes": "Glutes",
+      "glutes": "Buttocks",
       "glutesPrice": "50 MDL",
       "bikiniMedium": "Medium bikini",
       "bikiniMediumPrice": "150 MDL",
@@ -123,7 +123,13 @@
       },
       "waxing": {
         "q": "Does waxing hurt?",
-        "a": "It varies by person. Regular sessions usually get easier. Let us know if you are nervous. We work at your pace."
+        "aIntro": "Discomfort can depend on:",
+        "aPoints": [
+          "Regularity: with each session, sensitivity may decrease.",
+          "Your individual pain threshold (it differs from person to person).",
+          "Where you are in your menstrual cycle (sensitivity can be higher at certain times).",
+          "Emotional state: fear and tension can make the sensation feel stronger."
+        ]
       },
       "hairColor": {
         "q": "Can I bring my own hair dye?",
@@ -131,7 +137,7 @@
       },
       "privacy": {
         "q": "Is the studio private?",
-        "a": "Yes. What happens here stays confidential. Your comfort comes first."
+        "a": "In the studio you can feel safe: you can talk freely, laugh or cry, and be emotional — without fear of being judged. Everything discussed and that happens here stays confidential. Your comfort is the priority."
       }
     }
   },
@@ -142,7 +148,7 @@
   },
   "contact": {
     "title": "Schedule by phone",
-    "hours": "A calm, appointment-only studio in Volintiri for hair, nails, and waxing, where every visit is relaxed, private, and tailored to you.",
+    "hours": "Soft skin and personal care are a way to show care for yourself — we do it for us, not for someone else.",
     "phoneLead": "Appointments are by phone only. Call Aliona to book your visit.",
     "mapTitle": "Map to Centrul pentru Antreprenori, Volintiri",
     "openInMaps": "Directions in Google Maps",

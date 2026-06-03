@@ -13,7 +13,24 @@ export function FAQ() {
           {faqKeys.map((key) => (
             <details key={key}>
               <summary>{t(`items.${key}.q`)}</summary>
-              <p>{t(`items.${key}.a`, { phone: siteConfig.phoneFormatted })}</p>
+              <div className="faq-answer">
+                {key === "waxing" ? (
+                  <>
+                    <p>{t("items.waxing.aIntro")}</p>
+                    <ul>
+                      {(t.raw("items.waxing.aPoints") as string[]).map((point) => (
+                        <li key={point}>{point}</li>
+                      ))}
+                    </ul>
+                  </>
+                ) : (
+                  <p>
+                    {t(`items.${key}.a`, {
+                      phone: `${siteConfig.phoneLocal} / ${siteConfig.phoneInternational}`,
+                    })}
+                  </p>
+                )}
+              </div>
             </details>
           ))}
         </div>

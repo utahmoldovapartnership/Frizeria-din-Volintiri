@@ -23,9 +23,9 @@
     "imageAlt": "Tuns în desfășurare la salon"
   },
   "about": {
-    "heading": "Cunoaște stilista ta",
-    "text1": "Aliona Boldișor conduce un studio mic și liniștit în Volintiri, unde fiecare vizită este personală, fără grabă și fără coadă. Este frizer de profil larg, cu formare profesională recunoscută în Moldova, inclusiv certificare internațională.",
-    "text2": "Aliona se ocupă personal de tunsori și vopsire, unghii și epilare, astfel încât să ai mereu aceeași persoană. Programările sunt doar la telefon; își rezervă timp suficient pentru fiecare clientă și păstrează studioul privat și discret.",
+    "heading": "Despre",
+    "text1": "Salonul de frumusețe din Centrul pentru Antreprenori, Volintiri, oferă servicii complete de îngrijire: frizerie pentru femei și bărbați, manichiură/întreținere unghii și epilare cu ceară profesională. Lucrăm cu produse de calitate și punem accent pe confort, discreție și programare din timp. Programările se fac telefonic.",
+    "text2": "Aliona Boldișor conduce studio-ul: frizer de profil larg, cu formare profesională recunoscută în Moldova, inclusiv certificare internațională. Se ocupă personal de tunsori și vopsire, unghii și epilare, astfel încât să ai mereu aceeași persoană. Își rezervă timp suficient pentru fiecare client și păstrează cabinetul privat și discret.",
     "cta": "Sun-o pe Aliona pentru programare",
     "imageAlt": "Aliona Boldișor la lucru, la îngrijirea unghiilor"
   },
@@ -44,15 +44,15 @@
     "viewPrices": "Vezi prețurile",
     "hair": {
       "title": "Păr",
-      "text": "Tunsori moderne pentru femei și bărbați. Vopsire cu vopsea adusă de clientă."
+      "text": "Tunsori moderne pentru femei și bărbați, cu vopsire folosind vopseaua adusă de tine. Lucrăm fără grabă, în cabinet privat, astfel încât fiecare vizită rămâne calmă și personală."
     },
     "nails": {
       "title": "Unghii",
-      "text": "Extensii, întreținere, întărire cu gel și ojă semipermanentă."
+      "text": "Extensii, întreținere, întărire cu gel și ojă semipermanentă. Folosim produse de calitate și pregătire atentă, pentru rezultate care țin."
     },
     "wax": {
       "title": "Epilare",
-      "text": "Epilare profesională a corpului și feței, cu tehnică blândă și ceară de calitate."
+      "text": "Epilare cu ceară profesională, delicată cu pielea și eficientă pentru confort. Folosim produse de calitate, inclusiv ceară specială cu arome și culori atractive."
     }
   },
   "gallery": {
@@ -73,7 +73,7 @@
       "nails": "Unghii",
       "waxing": "Epilare"
     },
-    "note": "Vopsire păr: 100–150 MDL în funcție de lungime. Preț gel-lac la cerere.",
+    "note": "Vopsire păr: 100–150 MDL în funcție de lungime.",
     "items": {
       "nails": "Unghii",
       "nailsPrice": "250 MDL",
@@ -89,7 +89,7 @@
       "facePrice": "50–80 MDL",
       "mustache": "Mustață",
       "mustachePrice": "30 MDL",
-      "underarms": "Subraț",
+      "underarms": "Subțioare",
       "underarmsPrice": "50 MDL",
       "armsElbow": "Brațe până la cot",
       "armsElbowPrice": "100 MDL",
@@ -97,15 +97,15 @@
       "armsShoulderPrice": "150 MDL",
       "legsKnee": "Picioare până la genunchi",
       "legsKneePrice": "120 MDL",
-      "legsFull": "Picioare complete",
+      "legsFull": "Picioare integral (până sus)",
       "legsFullPrice": "230 MDL",
-      "stomach": "Abdomen",
+      "stomach": "Burtă",
       "stomachPrice": "30 MDL",
-      "glutes": "Fesieri",
+      "glutes": "Fese",
       "glutesPrice": "50 MDL",
       "bikiniMedium": "Bikini mediu",
       "bikiniMediumPrice": "150 MDL",
-      "bikiniDeep": "Bikini profund",
+      "bikiniDeep": "Bikini adânc",
       "bikiniDeepPrice": "200 MDL"
     }
   },
@@ -123,7 +123,13 @@
       },
       "waxing": {
         "q": "Doare epilarea?",
-        "a": "Depinde de persoană. Ședințele regulate devin de obicei mai ușoare. Spune dacă ești neliniștită. Lucrăm în ritmul tău."
+        "aIntro": "Nivelul de disconfort poate depinde de:",
+        "aPoints": [
+          "Frecvența: cu fiecare ședință, sensibilitatea poate scădea.",
+          "Pragul individual de sensibilitate (diferă de la persoană la persoană).",
+          "Faza ciclului menstrual (în anumite perioade sensibilitatea poate fi mai mare).",
+          "Starea emoțională: teama și tensiunea pot accentua senzația de durere."
+        ]
       },
       "hairColor": {
         "q": "Pot aduce propria vopsea?",
@@ -131,7 +137,7 @@
       },
       "privacy": {
         "q": "Este studioul privat?",
-        "a": "Da. Ce se întâmplă aici rămâne confidențial. Confortul tău este pe primul loc."
+        "a": "În cabinet poți să te simți în siguranță: poți vorbi liber, poți râde sau plânge, poți fi emoționat(ă) — fără teamă că vei fi judecat(ă). Tot ce se discută și se întâmplă în cabinet rămâne confidențial. Prioritatea este confortul clientului."
       }
     }
   },
@@ -142,7 +148,7 @@
   },
   "contact": {
     "title": "Programează-te la telefon",
-    "hours": "Un studio liniștit, doar cu programare, în Volintiri, pentru păr, unghii și epilare, unde fiecare vizită este relaxată, privată și adaptată nevoilor tale.",
+    "hours": "Pielea catifelată și îngrijirea personală sunt un mod de a-ți arăta grijă față de tine — o facem pentru noi, nu pentru altcineva.",
     "phoneLead": "Programările se fac doar la telefon. Sun-o pe Aliona pentru o vizită.",
     "mapTitle": "Hartă: Centrul pentru Antreprenori, Volintiri",
     "openInMaps": "Indicații în Google Maps",

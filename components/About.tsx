@@ -9,8 +9,8 @@ export function About() {
 
   return (
     <section id="about" className="section">
-      <div className="wrap-wide grid items-center gap-10 md:grid-cols-[1fr_1.1fr] md:gap-14">
-        <div className="relative aspect-[3/4] max-h-[28rem] w-full overflow-hidden rounded-2xl shadow-[var(--shadow-lg)]">
+      <div className="wrap-wide grid gap-10 md:grid-cols-[minmax(0,0.95fr)_1.1fr] md:items-stretch md:gap-14">
+        <div className="relative aspect-[3/4] max-h-[28rem] w-full overflow-hidden rounded-2xl shadow-[var(--shadow-lg)] md:aspect-auto md:max-h-none md:h-full">
           <LazyImage
             src={images.stylist}
             alt={t("imageAlt")}

@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { PhoneDisplay } from "./PhoneDisplay";
 import { SectionHeading } from "./SectionHeading";
 import { PhoneScheduleButton } from "./PhoneScheduleButton";
 
@@ -14,6 +15,7 @@ export function BookCta() {
           align="center"
         />
         <PhoneScheduleButton label={t("button")} />
+        <PhoneDisplay className="text-body !text-muted" />
       </div>
     </section>
   );

@@ -583,11 +583,30 @@ body {
   color: var(--slate-blue);
 }
 
+.faq-answer {
+  padding: 0 1.25rem 1.125rem;
+}
+
 .faq p {
   margin: 0;
-  padding: 0 1.25rem 1.125rem;
+  padding: 0;
   color: var(--muted);
   line-height: 1.7;
+}
+
+.faq-answer > p + ul {
+  margin-top: 0.5rem;
+}
+
+.faq ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.faq li + li {
+  margin-top: 0.35rem;
 }
 
 .pricing-group-title {
@@ -621,7 +640,6 @@ body {
   flex-shrink: 0;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
-  color: var(--midnight-violet);
 }
 
 .pricing-wax-grid {

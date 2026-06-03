@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Frizeria din Volintiri",
-  phoneDisplay: "(+373) 67-468-086",
-  phoneFormatted: "(+373) 67-468-086",
+  phoneLocal: "067 468 086",
+  phoneInternational: "+373 674 68 086",
   phoneTel: "+37367468086",
   locationName: "Centrul pentru Antreprenori",
   addressLine: "Volintiri, Ștefan Vodă, Moldova",
