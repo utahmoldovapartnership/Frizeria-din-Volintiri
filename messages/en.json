@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Frizeria din Volintiri: Hair, Nails & Waxing",
+    "description": "Appointment-only hair, nail, and waxing studio in Volintiri. Call Aliona Boldișor to book."
+  },
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "gallery": "Gallery",
+    "pricing": "Prices",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "call": "Call to book",
+    "menu": "Open menu",
+    "localeLabel": "Language"
+  },
+  "hero": {
+    "eyebrow": "Volintiri · Ștefan Vodă",
+    "title": "Your calm corner for hair, nails & waxing",
+    "description": "Private, appointment-only hair, nails, and waxing with Aliona Boldișor. Call ahead so every visit gets the time it deserves.",
+    "cta": "Schedule by phone",
+    "ctaSecondary": "View prices",
+    "imageAlt": "Haircut in progress at the salon"
+  },
+  "about": {
+    "heading": "Meet your stylist",
+    "text1": "Aliona Boldișor runs a small, calm studio in Volintiri where every visit is one-on-one, with no rush and no walk-in queue. She is a qualified broad-profile hairdresser (frizer de profil larg) with professional training recognized in Moldova, including international certification.",
+    "text2": "Aliona handles haircuts and color, nail care, and waxing herself, so you always see the same person. Appointments are by phone only; she blocks enough time for each client and keeps the studio private and discreet.",
+    "cta": "Call Aliona to book",
+    "imageAlt": "Aliona Boldișor performing nail care"
+  },
+  "certificates": {
+    "metaTitle": "Training & certificates | Frizeria din Volintiri",
+    "metaDescription": "Professional diplomas and certificates for Aliona Boldișor.",
+    "title": "Training & certificates",
+    "intro": "Diplomas and professional certificates in hairdressing and beauty.",
+    "back": "Back to home",
+    "backToTop": "Back to top",
+    "imageAlt": "Certificate {n}"
+  },
+  "services": {
+    "heading": "Everything in one place",
+    "intro": "Three areas of care: clear prices, no surprises.",
+    "viewPrices": "See prices",
+    "hair": {
+      "title": "Hair",
+      "text": "Modern cuts for men and women. Coloring with your own dye."
+    },
+    "nails": {
+      "title": "Nails",
+      "text": "Extensions, maintenance, gel strengthening, and gel polish."
+    },
+    "wax": {
+      "title": "Waxing",
+      "text": "Professional body and face waxing with gentle technique and quality waxes."
+    }
+  },
+  "gallery": {
+    "heading": "Our work",
+    "description": "Real results from the studio: hair, nails, and waxing.",
+    "categories": {
+      "hair": "Hair",
+      "nails": "Nails",
+      "wax": "Waxing"
+    },
+    "imageAlt": "{category}, photo {n}"
+  },
+  "pricing": {
+    "title": "Transparent prices",
+    "intro": "All prices in Moldovan lei (MDL). Call if you are unsure which service fits you.",
+    "groups": {
+      "hair": "Hair",
+      "nails": "Nails",
+      "waxing": "Waxing"
+    },
+    "note": "Hair color: 100–150 MDL depending on length. Gel-lac price on request.",
+    "items": {
+      "nails": "Nails",
+      "nailsPrice": "250 MDL",
+      "gel": "Gel / gel-lac",
+      "gelPrice": "On request",
+      "cut": "Haircut",
+      "cutPrice": "100 MDL",
+      "color": "Color (client dye)",
+      "colorPrice": "100–150 MDL",
+      "brows": "Eyebrows",
+      "browsPrice": "30 MDL",
+      "face": "Face",
+      "facePrice": "50–80 MDL",
+      "mustache": "Mustache",
+      "mustachePrice": "30 MDL",
+      "underarms": "Underarms",
+      "underarmsPrice": "50 MDL",
+      "armsElbow": "Arms to elbow",
+      "armsElbowPrice": "100 MDL",
+      "armsShoulder": "Arms to shoulder",
+      "armsShoulderPrice": "150 MDL",
+      "legsKnee": "Legs to knee",
+      "legsKneePrice": "120 MDL",
+      "legsFull": "Full legs",
+      "legsFullPrice": "230 MDL",
+      "stomach": "Stomach",
+      "stomachPrice": "30 MDL",
+      "glutes": "Glutes",
+      "glutesPrice": "50 MDL",
+      "bikiniMedium": "Medium bikini",
+      "bikiniMediumPrice": "150 MDL",
+      "bikiniDeep": "Deep bikini",
+      "bikiniDeepPrice": "200 MDL"
+    }
+  },
+  "faq": {
+    "title": "Good to know before you visit",
+    "intro": "Quick answers. Call if something is not listed here.",
+    "items": {
+      "booking": {
+        "q": "How do I book?",
+        "a": "Call {phone} in advance. We do not take online bookings."
+      },
+      "walkins": {
+        "q": "Can I walk in?",
+        "a": "We work by appointment. Call to ask about same-day availability."
+      },
+      "waxing": {
+        "q": "Does waxing hurt?",
+        "a": "It varies by person. Regular sessions usually get easier. Let us know if you are nervous. We work at your pace."
+      },
+      "hairColor": {
+        "q": "Can I bring my own hair dye?",
+        "a": "Yes. Coloring is done with your product; price depends on hair length and thickness."
+      },
+      "privacy": {
+        "q": "Is the studio private?",
+        "a": "Yes. What happens here stays confidential. Your comfort comes first."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready for your appointment?",
+    "description": "Call to book hair, nails, or waxing with Aliona. Same-day slots when available.",
+    "button": "Schedule by phone"
+  },
+  "contact": {
+    "title": "Schedule by phone",
+    "hours": "A calm, appointment-only studio in Volintiri for hair, nails, and waxing, where every visit is relaxed, private, and tailored to you.",
+    "phoneLead": "Appointments are by phone only. Call Aliona to book your visit.",
+    "mapTitle": "Map to Centrul pentru Antreprenori, Volintiri",
+    "openInMaps": "Directions in Google Maps",
+    "certificatesLink": "Training & certificates",
+    "copyright": "© {year} Frizeria din Volintiri"
+  }
+}
